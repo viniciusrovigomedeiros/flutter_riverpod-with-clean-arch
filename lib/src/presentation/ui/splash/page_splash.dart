@@ -12,10 +12,15 @@ class _AnimatingBg1State extends State<AnimatingBg1>
     with TickerProviderStateMixin {
   List<Color> colorList = [
     Color.fromARGB(255, 5, 5, 5),
-    Color.fromARGB(255, 45, 45, 45),
+    Color.fromARGB(255, 15, 15, 15),
     Color.fromARGB(255, 25, 25, 25),
     Color.fromARGB(255, 35, 35, 35),
+    Color.fromARGB(255, 45, 45, 45),
+    Color.fromARGB(255, 5, 5, 5),
     Color.fromARGB(255, 15, 15, 15),
+    Color.fromARGB(255, 25, 25, 25),
+    Color.fromARGB(255, 35, 35, 35),
+    Color.fromARGB(255, 45, 45, 45),
   ];
   List<Alignment> alignmentList = [Alignment.topCenter, Alignment.bottomCenter];
   int index = 0;
