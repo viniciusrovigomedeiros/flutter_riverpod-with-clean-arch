@@ -11,6 +11,7 @@ class MoviesNotifier extends StateNotifier<List<MovieEntity>> {
   }
 
   Future<void> getAllTrandingMovies(String timeWindow) async {
+    state = [];
     state = await _usecase.getAllTrandingMovies(timeWindow);
   }
 }
